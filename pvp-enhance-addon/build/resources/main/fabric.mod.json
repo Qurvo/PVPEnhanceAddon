@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "pvp-enhance-addon",
+  "version": "1.0.0",
+  "name": "PvP Enhancement Addon",
+  "description": "Advanced PvP modules for Meteor Client",
+  "authors": ["PvPEnhance"],
+  "license": "GPL-3.0",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.pvpenhance.addon.PvPEnhanceAddon"]
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "~1.21.4",
+    "meteor-client": "*"
+  }
+}
